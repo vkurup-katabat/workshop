@@ -19,3 +19,6 @@ security:
 management:
   security:
     enabled: false
+
+logging:
+  file: customers-service.log
