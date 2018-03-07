@@ -22,3 +22,14 @@ management:
 
 logging:
   file: customers-service.log
+  level:
+    org:
+      hibernate: INFO
+      springframework:
+        web: INFO
+        cloud: DEBUG
+    com:
+      cmc:
+        api:
+          controller: INFO
+    root: INFO
