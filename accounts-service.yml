@@ -29,3 +29,5 @@ security:
 management:
   security:
     enabled: false
+
+message: "Default-Message-In-Config-Server"
