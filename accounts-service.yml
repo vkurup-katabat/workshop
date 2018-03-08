@@ -30,4 +30,4 @@ management:
   security:
     enabled: false
 
-message: "Default-Message-In-Config-Server"
+message: "Default-Message-In-Config-Server-2"
