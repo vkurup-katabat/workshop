@@ -9,7 +9,7 @@ eureka:
   instance:
     preferIpAddress: false
 server:
-  port: 8092
+  port: 9411
 security:
   basic:
     enabled: false

@@ -22,6 +22,9 @@ spring:
       percentage: 1.0
     web:
       skipPattern: (^cleanup.*)
+    log:
+      json:
+        enabled: true
 eureka:
   instance:
     preferIpAddress: false
