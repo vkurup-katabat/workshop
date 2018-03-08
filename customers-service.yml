@@ -5,21 +5,20 @@ spring:
         - tun.*
         - eno.*
         - virbr.*
+  sleuth:
+    sampler:
+      percentage: 1.0
 eureka:
   instance:
     preferIpAddress: false
-
 server:
   port: 8091
-
 security:
   basic:
     enabled: false
-
 management:
   security:
     enabled: false
-
 logging:
   file: customers-service.log
   level:
